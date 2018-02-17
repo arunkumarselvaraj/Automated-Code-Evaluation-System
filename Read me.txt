@@ -1,0 +1,67 @@
+﻿                                                                  
+						       AUTOMATED CODE EVALUATION SYSTEM
+                                                                    (ACES)
+
+
+INTRODUCTION:
+	
+	Aces,  is a project mainly aimed to help the programmers test their skills and wits which can enable them to reach higher levels. Its a website which can be used for programming contests/practice sessions by any educational institutions.
+
+
+TECHNICAL DETAILS:
+
+Database Server used : mysql 
+DB Server version    : 5.5.28
+Web Server           : Apache2
+Scripting Languages  : PHP,Javascript
+User Interface       : HTML5
+
+HOW TO RUN THE SOFTWARE ?
+
+Step-1 : 
+	Install the required softwares. While installing the database server(mysql) set your password as “mysql” for smooth running of the software.
+ 
+Step-2 :
+	We need databases and tables to store your data. So you have to create the required tables by running the .sql files. The .sql files can be found on your /var/www/Run_sql_files.  
+
+Step-3
+ 	After setting up all the required things you can start running our  software on your browser.
+First get on to the login page and create a account for yourself .
+ 
+ 	As Staff : 
+	There are three different tabs on the top of the page.
+	1. Score
+	2. Add question
+            	2.1. Test Code	
+		2.2. Mcq		
+		2.3. Test Query
+  	3.Test Offered
+		3.1. Test Code	
+		3.2. MCQ
+		3.3. Test Query  
+
+	1. Scores :
+		A staff when logged into his account can view the scores of all the students who have taken the test.
+
+
+	2. Add question:
+		There are three links as mentioned above to add questions to the question pool according the category .
+		In the TEST CODE link you can add questions from programming languages(C, C++, JAVA)
+		and we have upload the output file and input files(test cases).Similarily you have to create questions for a MCQ test and Query test.
+
+	3.Test Code:
+		In this link after you have added enough questions to the question pool we can create a test here and questions in the test would be 			chosen randomly based on the subject you mention.
+
+
+	As Student :
+	
+	1.Test Offered:
+            	In the TEST OFFERED link you can take up the created by your staff by giving the correct test-id.
+	
+	2. Scores:
+		You can see the scores of the tests you have taken and improve your performance accordingly.
+
+
+Step-4 :
+           Logout before you exit the browser for security reasons.
+	
